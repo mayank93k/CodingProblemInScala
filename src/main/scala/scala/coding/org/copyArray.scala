@@ -2,14 +2,14 @@ package main.scala.org.coding.questions.mayank
 
 object copyArray {
   /**
-    * Program to copy all the elements of one array into another array.
-    *
-    * @param arr1 -> Array containing elements
-    * @param arr2 -> Array containing copied elements from Array A
-    * @return -> copy all the element from arr1 to arr2
-    */
-  def copyOneArrayFromAnotherArray(arr1: Array[Int], arr2: Array[Int]): Array[Int] = {
-    for (i <- 0 to arr1.length - 1) {
+   * Program to copy all the elements of one array into another array.
+   *
+   * @param arr1 -> Array containing elements
+   * @param arr2 -> Array containing copied elements from Array A
+   * @return -> copy all the element from arr1 to arr2
+   */
+  private def copyOneArrayFromAnotherArray(arr1: Array[Int], arr2: Array[Int]): Array[Int] = {
+    for (i <- arr1.indices) {
       arr2(i) = arr1(i)
     }
     arr2

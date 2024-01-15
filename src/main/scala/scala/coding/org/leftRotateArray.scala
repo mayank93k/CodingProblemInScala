@@ -1,4 +1,4 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object leftRotateArray {
   /**
@@ -7,7 +7,7 @@ object leftRotateArray {
   def main(args: Array[String]): Unit = {
     val a: Array[Int] = Array(1, 2, 3, 4, 5, 1)
     val n = 2
-    for (i <- 1 to n) {
+    for (_ <- 1 to n) {
       for (j <- 0 to a.length - 2) {
         val temp = a(j)
         a(j) = a(j + 1)

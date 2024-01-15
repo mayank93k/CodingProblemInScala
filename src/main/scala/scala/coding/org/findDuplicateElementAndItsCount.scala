@@ -1,10 +1,10 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 /**
-  * Find the Duplicate element in the array and its count
-  */
+ * Find the Duplicate element in the array and its count
+ */
 object findDuplicateElementAndItsCount {
-  def duplicate(a: Array[Int]): Unit = {
+  private def duplicate(a: Array[Int]): Unit = {
     val n = a.length
     var count = 1
     for (i <- 0 until n) {

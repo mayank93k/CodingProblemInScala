@@ -1,4 +1,4 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object elementsInEvenPositionInArray {
   /**
@@ -8,7 +8,7 @@ object elementsInEvenPositionInArray {
     */
   def main(args: Array[String]): Unit = {
     val a: Array[Int] = Array(1, 2, 3, 4, 5, 6)
-    for (i <- 1 to a.length - 1 by 2) {
+    for (i <- 1 until a.length by 2) {
       println("Elements in even position in array is:" + a(i))
     }
   }

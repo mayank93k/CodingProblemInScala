@@ -1,16 +1,21 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
-import scala.collection.mutable.HashSet
+import scala.collection.mutable
 import scala.util.control.Breaks
 
 /**
-  * Find the Duplicate element in the array
-  */
+ * Find the Duplicate element in the array
+ */
 object duplicateUsingHashSet {
-  var loop = new Breaks
+  private val loop = new Breaks
+
+  def main(args: Array[String]): Unit = {
+    val a = Array(5, 3, 3, 4, 6, 9, 8, 1, 9)
+    duplicate(a)
+  }
 
   def duplicate(a: Array[Int]): Unit = {
-    val hashSet: HashSet[Int] = new HashSet[Int]
+    val hashSet: mutable.HashSet[Int] = new mutable.HashSet[Int]
     loop.breakable {
       for (key <- a) {
         if (!hashSet.contains(key)) {
@@ -21,11 +26,6 @@ object duplicateUsingHashSet {
         }
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a = Array(5, 3, 3, 4, 6, 9, 8, 1, 9)
-    duplicate(a)
   }
 
 }
