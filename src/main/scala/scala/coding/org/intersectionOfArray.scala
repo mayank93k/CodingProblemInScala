@@ -1,14 +1,22 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object intersectionOfArray {
+  def main(args: Array[String]): Unit = {
+    val a = Array(1, 2, 3, 4, 5, 6, 15, 28)
+    val b = Array(4, 9, 13, 15, 16, 17)
+    val c = Array(4, 8, 10, 15, 28, 38, 45)
+    println("The Intersected element is: ")
+    intersect(a, b, c)
+  }
+
   /**
-    * This method gets the common element(Intersection) from all the input arrays
-    *
-    * @param a -> First Array
-    * @param b -> Second Array
-    * @param c -> Third Array
-    */
-  def intersect(a: Array[Int], b: Array[Int], c: Array[Int]): Unit = {
+   * This method gets the common element(Intersection) from all the input arrays
+   *
+   * @param a -> First Array
+   * @param b -> Second Array
+   * @param c -> Third Array
+   */
+  private def intersect(a: Array[Int], b: Array[Int], c: Array[Int]): Unit = {
     var i = 0
     var j = 0
     var k = 0
@@ -29,13 +37,5 @@ object intersectionOfArray {
         k += 1
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a = Array(1, 2, 3, 4, 5, 6, 15, 28)
-    val b = Array(4, 9, 13, 15, 16, 17)
-    val c = Array(4, 8, 10, 15, 28, 38, 45)
-    println("The Intersected element is: ")
-    intersect(a, b, c)
   }
 }

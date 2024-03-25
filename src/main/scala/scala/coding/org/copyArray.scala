@@ -1,6 +1,14 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object copyArray {
+  def main(args: Array[String]): Unit = {
+    val arr1: Array[Int] = Array(1, 3, 1, 5, 17, 99)
+    val arr2: Array[Int] = new Array[Int](arr1.length)
+    println("The array element of Array A is: " + arr1.mkString(","))
+    copyOneArrayFromAnotherArray(arr1, arr2)
+    println("The copied array element from array A to array B is: " + arr2.mkString(","))
+  }
+
   /**
    * Program to copy all the elements of one array into another array.
    *
@@ -13,13 +21,5 @@ object copyArray {
       arr2(i) = arr1(i)
     }
     arr2
-  }
-
-  def main(args: Array[String]): Unit = {
-    val arr1: Array[Int] = Array(1, 3, 1, 5, 17, 99)
-    val arr2: Array[Int] = new Array[Int](arr1.length)
-    println("The array element of Array A is: " + arr1.mkString(","))
-    copyOneArrayFromAnotherArray(arr1, arr2)
-    println("The copied array element from array A to array B is: " + arr2.mkString(","))
   }
 }

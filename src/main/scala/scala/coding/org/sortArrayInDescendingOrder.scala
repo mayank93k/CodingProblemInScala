@@ -1,13 +1,13 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object sortArrayInDescendingOrder {
   /**
-    * Program to sort the elements of an array in descending order.
-    */
+   * Program to sort the elements of an array in descending order.
+   */
   def main(args: Array[String]): Unit = {
     val a: Array[Int] = Array(7, 3, 1, 2, 4, 8)
-    for (i <- 0 to a.length - 1) {
-      for (j <- i + 1 to a.length - 1) {
+    for (i <- a.indices) {
+      for (j <- i + 1 until a.length) {
         if (a(i) < a(j)) {
           val temp = a(i)
           a(i) = a(j)

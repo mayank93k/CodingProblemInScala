@@ -1,6 +1,11 @@
 package scala.coding.org
 
 object findUniqueElement {
+  def main(args: Array[String]): Unit = {
+    val a = Array(1, 1, 5, 5, 3, 10, 10, 2, 2, 4)
+    uniqueElement(a)
+  }
+
   /**
    * This method find the unique element in the array.
    *
@@ -22,10 +27,5 @@ object findUniqueElement {
         println("The unique element is: " + a(i))
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a = Array(1, 1, 5, 5, 3, 10, 10, 2, 2, 4)
-    uniqueElement(a)
   }
 }

@@ -2,8 +2,8 @@ package scala.coding.org
 
 object leftRotateArray {
   /**
-    * Program to left rotate the elements of an array.
-    */
+   * Program to left rotate the elements of an array.
+   */
   def main(args: Array[String]): Unit = {
     val a: Array[Int] = Array(1, 2, 3, 4, 5, 1)
     val n = 2

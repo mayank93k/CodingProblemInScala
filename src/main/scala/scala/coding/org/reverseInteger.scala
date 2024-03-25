@@ -1,13 +1,18 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object reverseInteger {
+  def main(args: Array[String]): Unit = {
+    val a: Int = 34595
+    reverseInt(a)
+  }
+
   /**
-    * How to reverse a array or list of Integer
-    *
-    * @param n -> elements in Array
-    * @return
-    */
-  def reverseInt(n: Int): Int = {
+   * How to reverse a array or list of Integer
+   *
+   * @param n -> elements in Array
+   * @return
+   */
+  private def reverseInt(n: Int): Int = {
     var reverseNum: Int = 0
     var p = n
     while (p != 0) {
@@ -17,10 +22,5 @@ object reverseInteger {
     }
     println("Reversed of: " + n + " number is: " + reverseNum)
     reverseNum
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a: Int = 34595
-    reverseInt(a)
   }
 }

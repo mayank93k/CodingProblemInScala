@@ -7,6 +7,15 @@ import scala.io.StdIn.readInt
  * Implementation of GCD and LCM using user Input
  */
 object gcdLcm {
+  def main(args: Array[String]): Unit = {
+    println("Enter value of A")
+    val a = readInt()
+    println("Enter value of B")
+    val b = readInt()
+    println("GCD of " + a + " and " + b + " is " + gcd(a, b))
+    println("LCM of " + a + " and " + b + " is " + lcm(a, b))
+  }
+
   /**
    * This method gets the GCD
    *
@@ -29,14 +38,5 @@ object gcdLcm {
    */
   private def lcm(a: Int, b: Int): Int = {
     (a * b) / gcd(a, b)
-  }
-
-  def main(args: Array[String]): Unit = {
-    println("Enter value of A")
-    val a = readInt()
-    println("Enter value of B")
-    val b = readInt()
-    println("GCD of " + a + " and " + b + " is " + gcd(a, b))
-    println("LCM of " + a + " and " + b + " is " + lcm(a, b))
   }
 }

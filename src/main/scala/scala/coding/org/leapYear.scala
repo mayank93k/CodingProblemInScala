@@ -1,15 +1,22 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 /**
-  * About: Check weather given year is a leap year or not
-  */
+ * About: Check weather given year is a leap year or not
+ */
 object leapYear {
+  def main(args: Array[String]): Unit = {
+    // println("Enter the year to check, Year is leap year or normal year")
+    // val year = readInt()
+    val year = 2008
+    println("The year " + year + " is a leap year: " + yearLeap(year))
+  }
+
   /**
-    * This method gives a given year is a leap year or not
-    *
-    * @param year -> Year
-    * @return -> Return true if its is leap year or else false
-    */
+   * This method gives a given year is a leap year or not
+   *
+   * @param year -> Year
+   * @return -> Return true if its is leap year or else false
+   */
   def yearLeap(year: Int): Boolean = {
     if (year % 4 == 0) {
       if (year % 100 == 0) {
@@ -25,12 +32,5 @@ object leapYear {
     else {
       false
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    //  println("Enter the year to check, Year is leap year or normal year")
-    // val year = readInt()
-    val year = 2008
-    println("The year " + year + " is a leap year: " + yearLeap(year))
   }
 }

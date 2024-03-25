@@ -1,12 +1,17 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object lastDateOfMonth {
+  def main(args: Array[String]): Unit = {
+    val date: String = "01022016"
+    monthEnd(date)
+  }
+
   /**
-    * This method gives the last date of the given month
-    *
-    * @param date -> Date
-    */
-  def MonthEnd(date: String): Unit = {
+   * This method gives the last date of the given month
+   *
+   * @param date -> Date
+   */
+  private def monthEnd(date: String): Unit = {
     val year = date.substring(4, 8)
     val month = date.substring(2, 4)
     val monthYear = date.substring(2, 8)
@@ -20,18 +25,13 @@ object lastDateOfMonth {
       println("Last date of the month is: " + day.concat(monthYear))
     } else if (month.toInt == 2) {
       val leapYearCheck = leapYear.yearLeap(year.toInt)
-      if (leapYearCheck == true) {
+      if (leapYearCheck) {
         day = "29"
         println("Last date of the month is: " + day.concat(monthYear))
-      } else if (leapYearCheck == false) {
+      } else if (!leapYearCheck) {
         day = "28"
         println("Last date of the month is: " + day.concat(monthYear))
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val date: String = "01022016"
-    MonthEnd(date)
   }
 }

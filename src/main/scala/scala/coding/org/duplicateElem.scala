@@ -1,6 +1,13 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object duplicateElem {
+  def main(args: Array[String]): Unit = {
+    val number: Array[Int] = Array(1, 1, 1, 2, 2, 2, 2)
+    val num: Array[Int] = new Array[Int](number.length)
+    val visited = -1
+    duplicateNumber(number, visited, num)
+  }
+
   /**
    * * How do you find the duplicate number on a given integer array?
    *
@@ -25,12 +32,5 @@ object duplicateElem {
         println("The duplicate element in array is: " + number(i))
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val number: Array[Int] = Array(1, 1, 1, 2, 2, 2, 2)
-    val num: Array[Int] = new Array[Int](number.length)
-    val visited = -1
-    duplicateNumber(number, visited, num)
   }
 }

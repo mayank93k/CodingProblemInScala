@@ -1,4 +1,4 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 object arrayLength {
   /**

@@ -1,13 +1,18 @@
 package scala.coding.org.palindrome
 
 object stringPalindrome {
+  def main(args: Array[String]): Unit = {
+    val s = "abcbad"
+    stringPalindrome(s)
+  }
+
   /**
-    * This method checks given string is palindrome or not
-    *
-    * @param s -> Given String
-    * @return -> Returns the palindrome string
-    */
-  def stringPalindrome(s: String): Unit = {
+   * This method checks given string is palindrome or not
+   *
+   * @param s -> Given String
+   * @return -> Returns the palindrome string
+   */
+  private def stringPalindrome(s: String): Unit = {
     val a = s.toCharArray
     var n = a.length - 1
     var start = 0
@@ -25,10 +30,5 @@ object stringPalindrome {
     } else {
       println("string is not a palindrome")
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val s = "abcbad"
-    stringPalindrome(s)
   }
 }

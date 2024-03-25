@@ -1,13 +1,19 @@
 package scala.coding.org.subArray
 
 object largestSumContigiousArray {
+  def main(args: Array[String]): Unit = {
+    val a = Array(-2, -3, 4, -1, -2, 1, 5, -3)
+    val output = largestSumContigiousArray(a)
+    println(output)
+  }
+
   /**
-    * This method gives the largest sum in given array
-    *
-    * @param a -> Given Array
-    * @return -> return the usm of the array
-    */
-  def largestSumContigiousArray(a: Array[Int]): Int = {
+   * This method gives the largest sum in given array
+   *
+   * @param a -> Given Array
+   * @return -> return the usm of the array
+   */
+  private def largestSumContigiousArray(a: Array[Int]): Int = {
     var max_so_far = 0
     var max_ending_here = 0
     val n = a.length
@@ -22,11 +28,5 @@ object largestSumContigiousArray {
       }
     }
     max_so_far
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a = Array(-2, -3, 4, -1, -2, 1, 5, -3)
-    val output = largestSumContigiousArray(a)
-    println(output)
   }
 }

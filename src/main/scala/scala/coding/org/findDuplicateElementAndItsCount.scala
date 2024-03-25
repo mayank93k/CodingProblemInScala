@@ -4,6 +4,11 @@ package scala.coding.org
  * Find the Duplicate element in the array and its count
  */
 object findDuplicateElementAndItsCount {
+  def main(args: Array[String]): Unit = {
+    val a = Array(4, 3, 1, 6, 8, 1, 5, 1, 6)
+    duplicate(a)
+  }
+
   private def duplicate(a: Array[Int]): Unit = {
     val n = a.length
     var count = 1
@@ -19,10 +24,5 @@ object findDuplicateElementAndItsCount {
         count = 1
       }
     }
-  }
-
-  def main(args: Array[String]): Unit = {
-    val a = Array(4, 3, 1, 6, 8, 1, 5, 1, 6)
-    duplicate(a)
   }
 }
