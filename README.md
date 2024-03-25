@@ -1,42 +1,42 @@
 # Project_Scala_Coding
 Coding Problems in Scala
 --------------------------------
-1. arrayPalindrome
-2. numberPalindrome
-3. stringPalindrome
-4. generateSubArrays
-5. largestSumContigiousArray
-6. longestSubArrayNonNegative
-7. subArrayOfGivenSumArray
-8. arrayLength
-9. copyArray
-10. duplicateElem
-11. duplicateElementInArray
-12. duplicateUsingHashSet
-13. elementsInEvenPositionInArray
-14. elementsInOddPositionInArray
-15. findDuplicateElementAndItsCount
-16. findUniqueElement
-17. frequencyOfElementInArray
-18. gcdLcm
-19. intersectionOfArray
-20. kthSmallestAndLargestElement
-21. largestSmallestElement
-22. lastDateOfMonth
-23. leapYear
-24. leftRotateArray
-25. missingNum
-26. monkTakesAWalk
-27. removeDuplicate
-28. reverseArray
-29. reverseArraySwap
-30. reverseInteger
-31. reverseString
-32. reverseStringSwap
-33. rightRotateArray
-34. sortArrayInAscendingOrder
-35. sortArrayInDescendingOrder
-36. SumArray
-37. sumInArray
-38. unionOfArray
-39. wordCountImplementation
+1. [x] arrayPalindrome
+2. [x] numberPalindrome
+3. [x] stringPalindrome
+4. [x] generateSubArrays
+5. [x] largestSumContigiousArray
+6. [x] longestSubArrayNonNegative
+7. [x] subArrayOfGivenSumArray
+8. [x] arrayLength
+9. [x] copyArray
+10. [x] duplicateElem
+11. [x] duplicateElementInArray
+12. [x] duplicateUsingHashSet
+13. [x] elementsInEvenPositionInArray
+14. [x] elementsInOddPositionInArray
+15. [x] findDuplicateElementAndItsCount
+16. [x] findUniqueElement
+17. [x] frequencyOfElementInArray
+18. [x] gcdLcm
+19. [x] intersectionOfArray
+20. [x] kthSmallestAndLargestElement
+21. [x] largestSmallestElement
+22. [x] lastDateOfMonth
+23. [x] leapYear
+24. [x] leftRotateArray
+25. [x] missingNum
+26. [x] monkTakesAWalk
+27. [x] removeDuplicate
+28. [x] reverseArray
+29. [x] reverseArraySwap
+30. [x] reverseInteger
+31. [x] reverseString
+32. [x] reverseStringSwap
+33. [x] rightRotateArray
+34. [x] sortArrayInAscendingOrder
+35. [x] sortArrayInDescendingOrder
+36. [x] SumArray
+37. [x] sumInArray
+38. [x] unionOfArray
+39. [x] wordCountImplementation
