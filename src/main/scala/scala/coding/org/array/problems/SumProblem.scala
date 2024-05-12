@@ -18,7 +18,6 @@ object SumProblem {
   private def SumProblem(ints: Array[Int], ints1: Array[Int], chars: Array[Char], ints2: Array[Int]): Array[Boolean] = {
     var resArr: Array[Boolean] = Array()
     for (i <- chars.indices) {
-
       val res = chars(i) match {
         case '+' => ints(i) + ints1(i)
         case '-' => ints(i) - ints1(i)
