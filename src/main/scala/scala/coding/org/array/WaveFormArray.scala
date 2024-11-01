@@ -1,5 +1,4 @@
-package scala.coding.org.array.problems
-
+package scala.coding.org.array
 
 /**
  * Sort an array in wave form.

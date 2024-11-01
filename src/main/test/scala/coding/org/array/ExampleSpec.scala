@@ -1,9 +1,9 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 import org.scalatest.flatspec._
 import org.scalatest.matchers._
 
-import scala.coding.org.array.problems.SumProblem._
+import SumProblem._
 
 class ExampleSpec extends AnyFlatSpec with should.Matchers {
   "Sum of array A and B" should "return true for all except for multiple" in {

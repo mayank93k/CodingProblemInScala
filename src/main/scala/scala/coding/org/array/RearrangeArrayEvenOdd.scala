@@ -1,4 +1,4 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 /**
  * Rearrange array such that even positioned are greater than odd

@@ -1,4 +1,4 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 /**
  * Find the largest three distinct elements in an array

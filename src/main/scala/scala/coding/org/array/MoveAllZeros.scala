@@ -1,4 +1,4 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 /**
  * Move all zeroes to end of array

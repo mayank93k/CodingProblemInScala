@@ -25,7 +25,7 @@ object numberPalindrome {
     var reverse_num = 0
     var p = a
     while (p != 0) {
-      var digit = p % 10
+      val digit = p % 10
       reverse_num = reverse_num * 10 + digit
       p /= 10
     }

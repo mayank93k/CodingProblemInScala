@@ -1,8 +1,8 @@
-package main.scala.org.coding.questions.mayank
+package scala.coding.org
 
 /**
-  * About: Find the word count in a string
-  */
+ * About: Find the word count in a string
+ */
 object wordCountImplementation {
   def main(args: Array[String]): Unit = {
     val s = "Hey Hey Hey How are you"

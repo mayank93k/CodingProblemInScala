@@ -1,4 +1,4 @@
-# Project_Scala_Coding
+# CodingProblemInScala
 Coding Problems in Scala
 --------------------------------
 1. [x] arrayPalindrome

@@ -1,4 +1,4 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 import scala.collection.mutable.ArrayBuffer
 

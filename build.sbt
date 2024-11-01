@@ -1,4 +1,4 @@
-name := "ScalaCoding"
+name := "Coding Problems In Scala"
 
 version := "0.1"
 
@@ -9,4 +9,5 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.4.3",
   "org.apache.spark" %% "spark-streaming" % "2.4.5",
   "org.apache.spark" %% "spark-sql" % "2.4.5",
+  "org.scalatest" %% "scalatest" % "3.2.10"
 )

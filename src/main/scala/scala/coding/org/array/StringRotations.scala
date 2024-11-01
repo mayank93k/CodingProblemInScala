@@ -1,4 +1,4 @@
-package scala.coding.org.array.problems
+package scala.coding.org.array
 
 /**
  * Check if given strings are rotations of each other or not

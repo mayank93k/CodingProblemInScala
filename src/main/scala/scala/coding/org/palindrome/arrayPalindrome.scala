@@ -27,9 +27,9 @@ object arrayPalindrome {
     }
 
     if (flag == 1) {
-      println("Not a Palindrom")
+      println("Not a Palindrome")
     } else {
-      println("IS a Palindrom")
+      println("IS a Palindrome")
     }
   }
 }
