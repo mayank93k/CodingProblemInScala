@@ -5,7 +5,7 @@ Coding Problems in Scala
 2. [x] numberPalindrome
 3. [x] stringPalindrome
 4. [x] generateSubArrays
-5. [x] largestSumContigiousArray
+5. [x] largestSumContiguousArray
 6. [x] longestSubArrayNonNegative
 7. [x] subArrayOfGivenSumArray
 8. [x] arrayLength

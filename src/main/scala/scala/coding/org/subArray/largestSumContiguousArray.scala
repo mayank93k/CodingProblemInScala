@@ -1,6 +1,6 @@
 package scala.coding.org.subArray
 
-object largestSumContigiousArray {
+object largestSumContiguousArray {
   def main(args: Array[String]): Unit = {
     val a = Array(-2, -3, 4, -1, -2, 1, 5, -3)
     val output = largestSumContigiousArray(a)
