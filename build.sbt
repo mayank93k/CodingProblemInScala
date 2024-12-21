@@ -1,4 +1,4 @@
-name := "Coding Problems In Scala"
+name := "Scala Coding Challenges"
 
 version := "0.1"
 
