@@ -1,5 +1,5 @@
-# CodingProblemInScala
-Coding Problems in Scala
+# Scala Coding Challenges
+#### A collection of coding problems and their solutions implemented in Scala, covering various topics like algorithms, data structures, and functional programming.
 --------------------------------
 1. [x] arrayPalindrome
 2. [x] numberPalindrome
